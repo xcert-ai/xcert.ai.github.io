@@ -1,2 +1,2 @@
-# xcert.ai.github.io
+# xcert.ai
 Website
