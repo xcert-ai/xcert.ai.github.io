@@ -36,7 +36,8 @@ h1 {
 
 .background {
     position: absolute;
-    background-size: cover !important; /* Ensures the image fills the div */
+    background-size: cover; /* Ensures the image fills the div */
+	background-repeat: no-repeat;
 	z-index: -1;
 }
 
@@ -45,7 +46,7 @@ h1 {
     left: 0;
     width: 400px;
     height: 400px;
-    background: url('img/bg-top-left.png') no-repeat;
+    background-image: url('img/bg-top-left.png');
 }
 
 .background-top-right {
@@ -53,7 +54,7 @@ h1 {
     right: 0;
     width: 800px;
     height: 800px;
-    background: url('img/bg-top-right.png') no-repeat;
+    background-image: url('img/bg-top-right.png');
 }
 
 .background-bottom-left {
@@ -61,7 +62,7 @@ h1 {
     left: 0;
     width: 800px;
     height: 1000px;
-    background: url('img/bg-bottom-left.png') no-repeat;
+    background-image: url('img/bg-bottom-left.png');
 }
 
 .background-bottom-right {
@@ -69,7 +70,7 @@ h1 {
     right: 0;
     width: 400px;
     height: 400px;
-    background: url('img/bg-bottom-right.png') no-repeat;
+    background-image: url('img/bg-bottom-right.png');
 }
 
 .logo-main {
